@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ROE-2405S
+D Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 5V dc
+K
+F https://recom-power.com/pdf/Econoline/ROE.pdf
+$ENDCMP
+#
+#End Doc Library
