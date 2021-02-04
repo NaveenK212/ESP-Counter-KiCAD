@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PC817X4NSZ1B
+#/1220466/418676/2.48/4/4/Phototransistor
+DEF PC817X4NSZ1B Q 0 30 Y Y 1 F N
+F0 "Q" 1350 300 50 H V L CNN
+F1 "PC817X4NSZ1B" 1350 200 50 H V L CNN
+F2 "DIP762W60P254L460H455Q4N" 1350 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/PC817X4NSZ1B.pdf" 1350 0 50 H I L CNN
+F4 "Transistor Output Optocouplers OPTOISOLATOR 5KV TRANS DIP, Optoisolator Transistor Output 1 Channel" 1350 -100 50 H I L CNN "Description"
+F5 "4.55" 1350 -200 50 H I L CNN "Height"
+F6 "Sharp Microelectronics" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PC817X4NSZ1B" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "852-PC817X4NSZ1B" 1350 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Sharp-Microelectronics/PC817X4NSZ1B?qs=rrS6PyfT74dXG7qDYHTXow%3D%3D" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "PC817X4NSZ1B" 1350 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/pc817x4nsz1b/sharp" 1350 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ANODE 1 0 0 200 R 50 50 0 0 P
+X CATHODE 2 0 -100 200 R 50 50 0 0 P
+X COLLECTOR 4 1500 0 200 L 50 50 0 0 P
+X EMITTER 3 1500 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

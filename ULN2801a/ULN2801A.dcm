@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ULN2801A
+D Darlington Transistors Eight NPN Array
+K
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000179.pdf
+$ENDCMP
+#
+#End Doc Library
