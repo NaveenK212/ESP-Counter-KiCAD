@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP JS1-24V-F
+D JS1-24V-F
+F https://www3.panasonic.biz/ac/cdn/e/control/relay/power/catalog/mech_eng_js.pdf
+$ENDCMP
+# end doc library

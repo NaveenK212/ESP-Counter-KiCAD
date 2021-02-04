@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ESP_Counter_library)(type Legacy)(uri ${KIPRJMOD}/ESP_Counter_library.lib)(options "")(descr "")(disabled))
+  (lib (name eec)(type Legacy)(uri ${KIPRJMOD}/Relay_Panasonic_JS1-24V-F/eec.lib)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type Legacy)(uri "D:/Controller Project/KiCAD_Mouser_lib/SamacSys_Parts.lib")(options "")(descr ""))
+)
