@@ -463,135 +463,6 @@ Wire Wire Line
 	7366 2684 7366 2218
 Wire Wire Line
 	7366 2218 7876 2218
-$Comp
-L SamacSys_Parts:G2RL-1-DC24 K4
-U 1 1 602089EA
-P 7364 3830
-F 0 "K4" H 8014 4095 50  0000 C CNN
-F 1 "G2RL-1-DC24" H 8014 4004 50  0000 C CNN
-F 2 "SamacSys_Parts:G2RL14" H 8514 3930 50  0001 L CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf" H 8514 3830 50  0001 L CNN
-F 4 "General Purpose Relays SPDT 24VDC Class F Flux Protect GP Type" H 8514 3730 50  0001 L CNN "Description"
-F 5 "" H 8514 3630 50  0001 L CNN "Height"
-F 6 "Omron Electronics" H 8514 3530 50  0001 L CNN "Manufacturer_Name"
-F 7 "G2RL-1-DC24" H 8514 3430 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "653-G2RL-1-DC24" H 8514 3330 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G2RL-1-DC24/?qs=0w99tykdtPLbx%2Foa5LSTqg%3D%3D" H 8514 3230 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 8514 3130 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 8514 3030 50  0001 L CNN "Arrow Price/Stock"
-	1    7364 3830
-	1    0    0    -1  
-$EndComp
-Text GLabel 8774 3364 2    50   Input ~ 0
-24V
-Wire Wire Line
-	8664 3364 8774 3364
-Wire Wire Line
-	8664 3364 8664 3830
-$Comp
-L Diode:1N4001 D4
-U 1 1 602089F3
-P 8024 3364
-F 0 "D4" H 8024 3147 50  0000 C CNN
-F 1 "1N4007G" H 8024 3238 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8024 3189 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 8024 3364 50  0001 C CNN
-	1    8024 3364
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8664 3364 8174 3364
-Connection ~ 8664 3364
-Wire Wire Line
-	7364 3830 7364 3364
-Wire Wire Line
-	7364 3364 7874 3364
-$Comp
-L SamacSys_Parts:G2RL-1-DC24 K3
-U 1 1 6020AF3B
-P 7356 5004
-F 0 "K3" H 8006 5269 50  0000 C CNN
-F 1 "G2RL-1-DC24" H 8006 5178 50  0000 C CNN
-F 2 "SamacSys_Parts:G2RL14" H 8506 5104 50  0001 L CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf" H 8506 5004 50  0001 L CNN
-F 4 "General Purpose Relays SPDT 24VDC Class F Flux Protect GP Type" H 8506 4904 50  0001 L CNN "Description"
-F 5 "" H 8506 4804 50  0001 L CNN "Height"
-F 6 "Omron Electronics" H 8506 4704 50  0001 L CNN "Manufacturer_Name"
-F 7 "G2RL-1-DC24" H 8506 4604 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "653-G2RL-1-DC24" H 8506 4504 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G2RL-1-DC24/?qs=0w99tykdtPLbx%2Foa5LSTqg%3D%3D" H 8506 4404 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 8506 4304 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 8506 4204 50  0001 L CNN "Arrow Price/Stock"
-	1    7356 5004
-	1    0    0    -1  
-$EndComp
-Text GLabel 8766 4538 2    50   Input ~ 0
-24V
-Wire Wire Line
-	8656 4538 8766 4538
-Wire Wire Line
-	8656 4538 8656 5004
-$Comp
-L Diode:1N4001 D2
-U 1 1 6020AF44
-P 8016 4538
-F 0 "D2" H 8016 4321 50  0000 C CNN
-F 1 "1N4007G" H 8016 4412 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8016 4363 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 8016 4538 50  0001 C CNN
-	1    8016 4538
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8656 4538 8166 4538
-Connection ~ 8656 4538
-Wire Wire Line
-	7356 5004 7356 4538
-Wire Wire Line
-	7356 4538 7866 4538
-$Comp
-L SamacSys_Parts:G2RL-1-DC24 K1
-U 1 1 6020D52C
-P 7340 6124
-F 0 "K1" H 7990 6389 50  0000 C CNN
-F 1 "G2RL-1-DC24" H 7990 6298 50  0000 C CNN
-F 2 "SamacSys_Parts:G2RL14" H 8490 6224 50  0001 L CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf" H 8490 6124 50  0001 L CNN
-F 4 "General Purpose Relays SPDT 24VDC Class F Flux Protect GP Type" H 8490 6024 50  0001 L CNN "Description"
-F 5 "" H 8490 5924 50  0001 L CNN "Height"
-F 6 "Omron Electronics" H 8490 5824 50  0001 L CNN "Manufacturer_Name"
-F 7 "G2RL-1-DC24" H 8490 5724 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "653-G2RL-1-DC24" H 8490 5624 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/G2RL-1-DC24/?qs=0w99tykdtPLbx%2Foa5LSTqg%3D%3D" H 8490 5524 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 8490 5424 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 8490 5324 50  0001 L CNN "Arrow Price/Stock"
-	1    7340 6124
-	1    0    0    -1  
-$EndComp
-Text GLabel 8750 5658 2    50   Input ~ 0
-24V
-Wire Wire Line
-	8640 5658 8750 5658
-Wire Wire Line
-	8640 5658 8640 6124
-$Comp
-L Diode:1N4001 D1
-U 1 1 6020D535
-P 8000 5658
-F 0 "D1" H 8000 5441 50  0000 C CNN
-F 1 "1N4007G" H 8000 5532 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8000 5483 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 8000 5658 50  0001 C CNN
-	1    8000 5658
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8640 5658 8150 5658
-Connection ~ 8640 5658
-Wire Wire Line
-	7340 6124 7340 5658
-Wire Wire Line
-	7340 5658 7850 5658
 Text GLabel 6314 2510 1    50   Input ~ 0
 24V
 Wire Wire Line
@@ -609,43 +480,10 @@ Wire Wire Line
 Wire Wire Line
 	6572 2684 7366 2684
 Connection ~ 7366 2684
-Wire Wire Line
-	6240 3204 6702 3204
-Wire Wire Line
-	6702 3204 6702 3830
-Wire Wire Line
-	6702 3830 7364 3830
-Connection ~ 7364 3830
-Wire Wire Line
-	6240 3304 6570 3304
-Wire Wire Line
-	6570 3304 6570 5004
-Wire Wire Line
-	6570 5004 7356 5004
-Connection ~ 7356 5004
-Wire Wire Line
-	6240 3404 6478 3404
-Wire Wire Line
-	6478 3404 6478 6124
-Wire Wire Line
-	6478 6124 7340 6124
-Connection ~ 7340 6124
 Text Notes 7774 1674 0    50   ~ 0
 Motor Start
 Text Notes 7796 2922 0    50   ~ 0
 Motors Stop
-Text Notes 7760 4090 0    50   ~ 0
-Red/Green LED
-Text Notes 7800 5254 0    50   ~ 0
-Orange LED
-Text Notes 7782 6366 0    50   ~ 0
-Spare O/P
-Wire Wire Line
-	8664 3830 8664 3930
-Connection ~ 8664 3830
-Wire Wire Line
-	8656 5004 8656 5104
-Connection ~ 8656 5004
 Text GLabel 1708 3138 2    50   Input ~ 0
 VDD3V3
 $Comp
@@ -783,152 +621,68 @@ Stop_NO
 Wire Wire Line
 	10360 1508 10480 1508
 $Comp
-L Connector:Screw_Terminal_01x04 J3
+L Connector:Screw_Terminal_01x06 J3
 U 1 1 6026F0B6
-P 10684 2312
-F 0 "J3" H 10638 2006 50  0000 L CNN
-F 1 "LED_Indicator" H 10448 2534 50  0000 L CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_4-G-5.08_1x04_P5.08mm_Vertical" H 10684 2312 50  0001 C CNN
-F 3 "~" H 10684 2312 50  0001 C CNN
-	1    10684 2312
+P 10680 2304
+F 0 "J3" H 10626 1908 50  0000 L CNN
+F 1 "LED_Indicator" H 10634 2626 50  0000 L CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_4-G-5.08_1x04_P5.08mm_Vertical" H 10680 2304 50  0001 C CNN
+F 3 "~" H 10680 2304 50  0001 C CNN
+	1    10680 2304
 	1    0    0    -1  
 $EndComp
-Text GLabel 7206 3930 0    50   Input ~ 0
+Text GLabel 6644 3204 2    50   Input ~ 0
 RED
-Wire Wire Line
-	7206 3930 7364 3930
-Text GLabel 7208 4030 0    50   Input ~ 0
+Text GLabel 6644 3304 2    50   Input ~ 0
 Green
-Wire Wire Line
-	7208 4030 7364 4030
-$Comp
-L power:GND1 #PWR06
-U 1 1 6027A1A9
-P 10302 2592
-F 0 "#PWR06" H 10302 2342 50  0001 C CNN
-F 1 "GND1" H 10307 2419 50  0000 C CNN
-F 2 "" H 10302 2592 50  0001 C CNN
-F 3 "" H 10302 2592 50  0001 C CNN
-	1    10302 2592
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10484 2512 10302 2512
-Wire Wire Line
-	10302 2512 10302 2592
-Wire Wire Line
-	10302 2512 10302 2312
-Wire Wire Line
-	10302 2312 10484 2312
-Connection ~ 10302 2512
-Text GLabel 10120 2212 0    50   Input ~ 0
+Text GLabel 10248 2204 0    50   Input ~ 0
 RED
-Wire Wire Line
-	10120 2212 10484 2212
-Text GLabel 10120 2412 0    50   Input ~ 0
+Text GLabel 10248 2404 0    50   Input ~ 0
 Green
-Wire Wire Line
-	10120 2412 10484 2412
-$Comp
-L Connector:Screw_Terminal_01x05 J4
-U 1 1 60299850
-P 10692 3612
-F 0 "J4" H 10656 3282 50  0000 L CNN
-F 1 "Orange_Spare" H 10444 3946 50  0000 L CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_5-G-5.08_1x05_P5.08mm_Vertical" H 10692 3612 50  0001 C CNN
-F 3 "~" H 10692 3612 50  0001 C CNN
-	1    10692 3612
-	1    0    0    -1  
-$EndComp
-Text GLabel 7196 5204 0    50   Input ~ 0
+Text GLabel 6644 3404 2    50   Input ~ 0
 Orange
-Wire Wire Line
-	7196 5204 7356 5204
-Text GLabel 8700 6224 2    50   Input ~ 0
-Spare_OP_COM
-Wire Wire Line
-	8640 6224 8700 6224
-Text GLabel 7224 6224 0    50   Input ~ 0
-Spare_OP_NC
-Wire Wire Line
-	7224 6224 7340 6224
-Text GLabel 7228 6324 0    50   Input ~ 0
-Spare_OP_NO
-Wire Wire Line
-	7228 6324 7340 6324
-Text GLabel 10152 3412 0    50   Input ~ 0
-Orange
-$Comp
-L power:GND1 #PWR07
-U 1 1 602AFEBF
-P 10368 3970
-F 0 "#PWR07" H 10368 3720 50  0001 C CNN
-F 1 "GND1" H 10373 3797 50  0000 C CNN
-F 2 "" H 10368 3970 50  0001 C CNN
-F 3 "" H 10368 3970 50  0001 C CNN
-	1    10368 3970
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10492 3512 10368 3512
-Wire Wire Line
-	10368 3512 10368 3970
-Wire Wire Line
-	10152 3412 10492 3412
-Text GLabel 10156 3612 0    50   Input ~ 0
-Spare_OP_COM
-Wire Wire Line
-	10156 3612 10492 3612
-Text GLabel 10156 3712 0    50   Input ~ 0
-Spare_OP_NC
-Wire Wire Line
-	10156 3712 10492 3712
-Text GLabel 10158 3812 0    50   Input ~ 0
-Spare_OP_NO
-Wire Wire Line
-	10158 3812 10492 3812
 $Comp
 L Connector:Screw_Terminal_01x04 J5
 U 1 1 602CB48E
-P 10724 4672
-F 0 "J5" H 10684 4344 50  0000 L CNN
-F 1 "24V_Input" H 10548 4914 50  0000 L CNN
-F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_4-G-5.08_1x04_P5.08mm_Vertical" H 10724 4672 50  0001 C CNN
-F 3 "~" H 10724 4672 50  0001 C CNN
-	1    10724 4672
+P 10684 3112
+F 0 "J5" H 10644 2784 50  0000 L CNN
+F 1 "24V_Input" H 10508 3354 50  0000 L CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_4-G-5.08_1x04_P5.08mm_Vertical" H 10684 3112 50  0001 C CNN
+F 3 "~" H 10684 3112 50  0001 C CNN
+	1    10684 3112
 	1    0    0    -1  
 $EndComp
-Text GLabel 10304 4572 0    50   Input ~ 0
+Text GLabel 10264 3012 0    50   Input ~ 0
 24V
 Wire Wire Line
-	10304 4572 10384 4572
+	10264 3012 10344 3012
 Wire Wire Line
-	10524 4772 10384 4772
+	10484 3212 10344 3212
 Wire Wire Line
-	10384 4772 10384 4572
-Connection ~ 10384 4572
+	10344 3212 10344 3012
+Connection ~ 10344 3012
 Wire Wire Line
-	10384 4572 10524 4572
+	10344 3012 10484 3012
 $Comp
 L power:GND1 #PWR08
 U 1 1 602D96A0
-P 10450 5008
-F 0 "#PWR08" H 10450 4758 50  0001 C CNN
-F 1 "GND1" H 10455 4835 50  0000 C CNN
-F 2 "" H 10450 5008 50  0001 C CNN
-F 3 "" H 10450 5008 50  0001 C CNN
-	1    10450 5008
+P 10410 3448
+F 0 "#PWR08" H 10410 3198 50  0001 C CNN
+F 1 "GND1" H 10415 3275 50  0000 C CNN
+F 2 "" H 10410 3448 50  0001 C CNN
+F 3 "" H 10410 3448 50  0001 C CNN
+	1    10410 3448
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10524 4872 10450 4872
+	10484 3312 10410 3312
 Wire Wire Line
-	10450 4872 10450 5008
+	10410 3312 10410 3448
 Wire Wire Line
-	10450 4872 10450 4672
+	10410 3312 10410 3112
 Wire Wire Line
-	10450 4672 10524 4672
-Connection ~ 10450 4872
+	10410 3112 10484 3112
+Connection ~ 10410 3312
 $Comp
 L Isolator:VO615A U9
 U 1 1 602EDF4D
@@ -1159,20 +913,54 @@ Wire Wire Line
 $Comp
 L ROE-2405S:ROE-2405S PS?
 U 1 1 601CB8A2
-P 1226 6668
-F 0 "PS?" H 1642 6842 50  0000 L CNN
-F 1 "ROE-2405S" H 1498 6192 50  0000 L CNN
-F 2 "ROE1205S" H 2076 6768 50  0001 L CNN
-F 3 "https://recom-power.com/pdf/Econoline/ROE.pdf" H 2076 6668 50  0001 L CNN
-F 4 "Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 5V dc" H 2076 6568 50  0001 L CNN "Description"
-F 5 "10.5" H 2076 6468 50  0001 L CNN "Height"
-F 6 "RECOM Power" H 2076 6368 50  0001 L CNN "Manufacturer_Name"
-F 7 "ROE-2405S" H 2076 6268 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "919-ROE-2405S" H 2076 6168 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROE-2405S/?qs=wlO1EFRhkBD1PQdCwpEhnw%3D%3D" H 2076 6068 50  0001 L CNN "Mouser Price/Stock"
-F 10 "ROE-2405S" H 2076 5968 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/roe-2405s/recom-power" H 2076 5868 50  0001 L CNN "Arrow Price/Stock"
-	1    1226 6668
-	1    0    0    -1  
+P 1622 6414
+F 0 "PS?" H 2038 6588 50  0000 L CNN
+F 1 "ROE-2405S" H 1894 5938 50  0000 L CNN
+F 2 "ROE1205S" H 2472 6514 50  0001 L CNN
+F 3 "https://recom-power.com/pdf/Econoline/ROE.pdf" H 2472 6414 50  0001 L CNN
+F 4 "Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 5V dc" H 2472 6314 50  0001 L CNN "Description"
+F 5 "10.5" H 2472 6214 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 2472 6114 50  0001 L CNN "Manufacturer_Name"
+F 7 "ROE-2405S" H 2472 6014 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-ROE-2405S" H 2472 5914 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROE-2405S/?qs=wlO1EFRhkBD1PQdCwpEhnw%3D%3D" H 2472 5814 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ROE-2405S" H 2472 5714 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/roe-2405s/recom-power" H 2472 5614 50  0001 L CNN "Arrow Price/Stock"
+	1    1622 6414
+	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	6240 3204 6644 3204
+Wire Wire Line
+	6240 3304 6644 3304
+Wire Wire Line
+	6240 3404 6644 3404
+Text GLabel 10248 2604 0    50   Input ~ 0
+Orange
+Text GLabel 10244 2032 0    50   Input ~ 0
+24V
+Wire Wire Line
+	10244 2032 10358 2032
+Wire Wire Line
+	10358 2032 10358 2104
+Wire Wire Line
+	10248 2204 10480 2204
+Wire Wire Line
+	10248 2404 10480 2404
+Wire Wire Line
+	10248 2604 10480 2604
+Wire Wire Line
+	10480 2304 10390 2304
+Wire Wire Line
+	10390 2504 10480 2504
+Wire Wire Line
+	10358 2104 10390 2104
+Wire Wire Line
+	10390 2104 10390 2304
+Connection ~ 10390 2104
+Wire Wire Line
+	10390 2104 10480 2104
+Connection ~ 10390 2304
+Wire Wire Line
+	10390 2304 10390 2504
 $EndSCHEMATC
