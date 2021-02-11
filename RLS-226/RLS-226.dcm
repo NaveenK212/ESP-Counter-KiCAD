@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RLS-226
+D FIXED IND 22UH 630MA 700MOHM SMD
+K
+F https://www.recom-power.com/pdf/Accessories/RLS-226.pdf
+$ENDCMP
+#
+#End Doc Library
