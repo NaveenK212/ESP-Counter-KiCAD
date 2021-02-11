@@ -1113,7 +1113,89 @@ F 3 "" H 1656 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 5248 1656 5248
-Wire Wire Line
 	1656 5248 1656 5250
+$Comp
+L Memory_EEPROM:AT25xxx-MA U?
+U 1 1 6025A0E8
+P 6602 5974
+F 0 "U?" H 6132 6322 50  0000 C CNN
+F 1 "AT25xxx-MA" H 5964 6234 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 6602 5974 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf" H 6602 5974 50  0001 C CNN
+	1    6602 5974
+	1    0    0    -1  
+$EndComp
+Text GLabel 6642 5570 2    50   Input ~ 0
+VDD3V3
+Wire Wire Line
+	6602 5674 6602 5570
+Wire Wire Line
+	6202 5874 6202 5570
+Wire Wire Line
+	6202 5570 6602 5570
+Connection ~ 6602 5570
+Wire Wire Line
+	6602 5570 6642 5570
+$Comp
+L power:GND #PWR?
+U 1 1 6027DABC
+P 6602 6306
+F 0 "#PWR?" H 6602 6056 50  0001 C CNN
+F 1 "GND" H 6607 6133 50  0000 C CNN
+F 2 "" H 6602 6306 50  0001 C CNN
+F 3 "" H 6602 6306 50  0001 C CNN
+	1    6602 6306
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6602 6306 6602 6274
+Text GLabel 1686 4948 2    50   Input ~ 0
+MOSI
+Wire Wire Line
+	1500 4948 1686 4948
+Text GLabel 1688 5048 2    50   Input ~ 0
+MISO
+Wire Wire Line
+	1500 5048 1688 5048
+Text GLabel 7098 5974 2    50   Input ~ 0
+MOSI
+Wire Wire Line
+	7002 5974 7098 5974
+Text GLabel 7098 6074 2    50   Input ~ 0
+MISO
+Wire Wire Line
+	7002 6074 7098 6074
+Text GLabel 1688 5148 2    50   Input ~ 0
+CLK
+Wire Wire Line
+	1500 5148 1688 5148
+Text GLabel 7096 5874 2    50   Input ~ 0
+CLK
+Wire Wire Line
+	7002 5874 7096 5874
+Text GLabel 1674 2150 2    50   Input ~ 0
+HOLD
+Text GLabel 1674 2250 2    50   Input ~ 0
+CS
+Wire Wire Line
+	1460 2150 1674 2150
+Wire Wire Line
+	1460 2250 1674 2250
+Text GLabel 6080 5974 0    50   Input ~ 0
+HOLD
+Wire Wire Line
+	6080 5974 6202 5974
+Text GLabel 6080 6074 0    50   Input ~ 0
+CS
+Wire Wire Line
+	6080 6074 6202 6074
+Wire Wire Line
+	1500 5648 1550 5648
+Wire Wire Line
+	1550 5648 1550 5248
+Wire Wire Line
+	1500 5248 1550 5248
+Connection ~ 1550 5248
+Wire Wire Line
+	1550 5248 1656 5248
 $EndSCHEMATC

@@ -652,15 +652,12 @@ F 3 "~" H 10684 3112 50  0001 C CNN
 	1    10684 3112
 	1    0    0    -1  
 $EndComp
-Text GLabel 10264 3012 0    50   Input ~ 0
+Text GLabel 9816 3012 0    50   Input ~ 0
 24V
-Wire Wire Line
-	10264 3012 10344 3012
 Wire Wire Line
 	10484 3212 10344 3212
 Wire Wire Line
 	10344 3212 10344 3012
-Connection ~ 10344 3012
 Wire Wire Line
 	10344 3012 10484 3012
 $Comp
@@ -913,20 +910,20 @@ Wire Wire Line
 $Comp
 L ROE-2405S:ROE-2405S PS?
 U 1 1 601CB8A2
-P 7790 4964
-F 0 "PS?" H 8206 5138 50  0000 L CNN
-F 1 "ROE-2405S" H 8062 4488 50  0000 L CNN
-F 2 "ROE1205S" H 8640 5064 50  0001 L CNN
-F 3 "https://recom-power.com/pdf/Econoline/ROE.pdf" H 8640 4964 50  0001 L CNN
-F 4 "Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 5V dc" H 8640 4864 50  0001 L CNN "Description"
-F 5 "10.5" H 8640 4764 50  0001 L CNN "Height"
-F 6 "RECOM Power" H 8640 4664 50  0001 L CNN "Manufacturer_Name"
-F 7 "ROE-2405S" H 8640 4564 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "919-ROE-2405S" H 8640 4464 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROE-2405S/?qs=wlO1EFRhkBD1PQdCwpEhnw%3D%3D" H 8640 4364 50  0001 L CNN "Mouser Price/Stock"
-F 10 "ROE-2405S" H 8640 4264 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/roe-2405s/recom-power" H 8640 4164 50  0001 L CNN "Arrow Price/Stock"
-	1    7790 4964
+P 1486 6728
+F 0 "PS?" H 1902 6902 50  0000 L CNN
+F 1 "ROE-2405S" H 1758 6252 50  0000 L CNN
+F 2 "ROE1205S" H 2336 6828 50  0001 L CNN
+F 3 "https://recom-power.com/pdf/Econoline/ROE.pdf" H 2336 6728 50  0001 L CNN
+F 4 "Recom Through Hole 1W Isolated DC-DC Converter, I/O isolation 1kV dc, Vout 5V dc" H 2336 6628 50  0001 L CNN "Description"
+F 5 "10.5" H 2336 6528 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 2336 6428 50  0001 L CNN "Manufacturer_Name"
+F 7 "ROE-2405S" H 2336 6328 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-ROE-2405S" H 2336 6228 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROE-2405S/?qs=wlO1EFRhkBD1PQdCwpEhnw%3D%3D" H 2336 6128 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ROE-2405S" H 2336 6028 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/roe-2405s/recom-power" H 2336 5928 50  0001 L CNN "Arrow Price/Stock"
+	1    1486 6728
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -963,4 +960,235 @@ Wire Wire Line
 Connection ~ 10390 2304
 Wire Wire Line
 	10390 2304 10390 2504
+Wire Wire Line
+	9816 3012 9966 3012
+Wire Wire Line
+	10344 3012 10344 3014
+Connection ~ 10344 3012
+$Comp
+L Device:C_Small C?
+U 1 1 6026B2BA
+P 9966 3242
+F 0 "C?" H 9798 3280 50  0000 L CNN
+F 1 "10uF" H 9638 3172 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9966 3242 50  0001 C CNN
+F 3 "~" H 9966 3242 50  0001 C CNN
+	1    9966 3242
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 6026C34F
+P 9966 3452
+F 0 "#PWR?" H 9966 3202 50  0001 C CNN
+F 1 "GND1" H 9971 3279 50  0000 C CNN
+F 2 "" H 9966 3452 50  0001 C CNN
+F 3 "" H 9966 3452 50  0001 C CNN
+	1    9966 3452
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9966 3452 9966 3342
+Wire Wire Line
+	9966 3012 9966 3142
+Connection ~ 9966 3012
+Wire Wire Line
+	9966 3012 10344 3012
+Text GLabel 2206 6828 2    50   Input ~ 0
+24V
+$Comp
+L Device:L_Small L?
+U 1 1 6027A5EF
+P 1886 6828
+F 0 "L?" V 2071 6828 50  0000 C CNN
+F 1 "22uH" V 1980 6828 50  0000 C CNN
+F 2 "" H 1886 6828 50  0001 C CNN
+F 3 "~" H 1886 6828 50  0001 C CNN
+	1    1886 6828
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1486 6828 1730 6828
+Wire Wire Line
+	1986 6828 2206 6828
+Text GLabel 2202 7028 2    50   Input ~ 0
+VDD5V
+Wire Wire Line
+	1486 7028 1730 7028
+$Comp
+L power:GND #PWR?
+U 1 1 602955C8
+P 1632 7418
+F 0 "#PWR?" H 1632 7168 50  0001 C CNN
+F 1 "GND" H 1637 7245 50  0000 C CNN
+F 2 "" H 1632 7418 50  0001 C CNN
+F 3 "" H 1632 7418 50  0001 C CNN
+	1    1632 7418
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1486 6928 1632 6928
+Wire Wire Line
+	1632 6928 1632 7120
+$Comp
+L power:GND1 #PWR?
+U 1 1 6029D955
+P 1696 6274
+F 0 "#PWR?" H 1696 6024 50  0001 C CNN
+F 1 "GND1" H 1701 6101 50  0000 C CNN
+F 2 "" H 1696 6274 50  0001 C CNN
+F 3 "" H 1696 6274 50  0001 C CNN
+	1    1696 6274
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1486 6728 1486 6168
+Wire Wire Line
+	1486 6168 1696 6168
+Wire Wire Line
+	1696 6168 1696 6274
+Wire Wire Line
+	1730 7032 1730 7028
+Connection ~ 1730 7028
+Wire Wire Line
+	1730 7028 2202 7028
+Wire Wire Line
+	1730 6828 1730 6830
+Connection ~ 1730 6828
+Wire Wire Line
+	1730 6828 1786 6828
+$Comp
+L Device:C_Small C?
+U 1 1 602A61AB
+P 1730 6930
+F 0 "C?" H 1798 6938 50  0000 L CNN
+F 1 "330pF" H 1756 6872 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1730 6930 50  0001 C CNN
+F 3 "~" H 1730 6930 50  0001 C CNN
+	1    1730 6930
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 602B8471
+P 1934 7220
+F 0 "C?" H 2002 7228 50  0000 L CNN
+F 1 "330pF" H 1960 7148 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1934 7220 50  0001 C CNN
+F 3 "~" H 1934 7220 50  0001 C CNN
+	1    1934 7220
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR?
+U 1 1 602B89B8
+P 1934 7420
+F 0 "#PWR?" H 1934 7170 50  0001 C CNN
+F 1 "GND1" H 1939 7247 50  0000 C CNN
+F 2 "" H 1934 7420 50  0001 C CNN
+F 3 "" H 1934 7420 50  0001 C CNN
+	1    1934 7420
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1934 7120 1632 7120
+Connection ~ 1632 7120
+Wire Wire Line
+	1632 7120 1632 7418
+Wire Wire Line
+	1934 7420 1934 7320
+Text GLabel 1564 5748 2    50   Input ~ 0
+VDD5V
+Wire Wire Line
+	1500 5748 1564 5748
+$Comp
+L power:GND #PWR?
+U 1 1 602E7FBB
+P 1656 5250
+F 0 "#PWR?" H 1656 5000 50  0001 C CNN
+F 1 "GND" H 1661 5077 50  0000 C CNN
+F 2 "" H 1656 5250 50  0001 C CNN
+F 3 "" H 1656 5250 50  0001 C CNN
+	1    1656 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5248 1656 5248
+Wire Wire Line
+	1656 5248 1656 5250
+$Comp
+L Memory_EEPROM:AT25xxx-MA U?
+U 1 1 6025A0E8
+P 6602 5974
+F 0 "U?" H 6132 6322 50  0000 C CNN
+F 1 "AT25xxx-MA" H 5964 6234 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.75x1.45mm" H 6602 5974 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf" H 6602 5974 50  0001 C CNN
+	1    6602 5974
+	1    0    0    -1  
+$EndComp
+Text GLabel 6642 5570 2    50   Input ~ 0
+VDD3V3
+Wire Wire Line
+	6602 5674 6602 5570
+Wire Wire Line
+	6202 5874 6202 5570
+Wire Wire Line
+	6202 5570 6602 5570
+Connection ~ 6602 5570
+Wire Wire Line
+	6602 5570 6642 5570
+$Comp
+L power:GND #PWR?
+U 1 1 6027DABC
+P 6602 6306
+F 0 "#PWR?" H 6602 6056 50  0001 C CNN
+F 1 "GND" H 6607 6133 50  0000 C CNN
+F 2 "" H 6602 6306 50  0001 C CNN
+F 3 "" H 6602 6306 50  0001 C CNN
+	1    6602 6306
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6602 6306 6602 6274
+Text GLabel 1686 4948 2    50   Input ~ 0
+MOSI
+Wire Wire Line
+	1500 4948 1686 4948
+Text GLabel 1688 5048 2    50   Input ~ 0
+MISO
+Wire Wire Line
+	1500 5048 1688 5048
+Text GLabel 7098 5974 2    50   Input ~ 0
+MOSI
+Wire Wire Line
+	7002 5974 7098 5974
+Text GLabel 7098 6074 2    50   Input ~ 0
+MISO
+Wire Wire Line
+	7002 6074 7098 6074
+Text GLabel 1688 5148 2    50   Input ~ 0
+CLK
+Wire Wire Line
+	1500 5148 1688 5148
+Text GLabel 7096 5874 2    50   Input ~ 0
+CLK
+Wire Wire Line
+	7002 5874 7096 5874
+Text GLabel 1674 2150 2    50   Input ~ 0
+HOLD
+Text GLabel 1674 2250 2    50   Input ~ 0
+CS
+Wire Wire Line
+	1460 2150 1674 2150
+Wire Wire Line
+	1460 2250 1674 2250
+Text GLabel 6080 5974 0    50   Input ~ 0
+HOLD
+Wire Wire Line
+	6080 5974 6202 5974
+Text GLabel 6080 6074 0    50   Input ~ 0
+CS
+Wire Wire Line
+	6080 6074 6202 6074
 $EndSCHEMATC
