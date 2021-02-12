@@ -1,4 +1,4 @@
-19027642553404295
+19037317691621983
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -59275,6 +59275,13 @@ IR Receiver Vishay TSOP-xxxx MOLD
 0
 3
 3
+Optocoupler
+DIP762W60P254L460H455Q4N
+PC 817_1
+Phototransistor
+0
+4
+4
 Oscillator
 Oscillator_DIP-8
 Oscillator, DIP8,http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf
@@ -74388,6 +74395,20 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RLS-226
+RLS226
+RLS-226-2
+Inductor
+0
+2
+2
+ROE2450S
+ROE1205S
+ROE
+Power Supply
+0
+4
+4
 Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
@@ -76292,6 +76313,20 @@ rotary encoder
 0
 5
 4
+SamacSys_Parts
+G2RL14
+G2RL14
+Relay or Contactor
+0
+5
+5
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -82256,6 +82291,13 @@ transformer flyback
 0
 10
 10
+ULN2801a
+DIP850W46P254L2324H393Q18N
+DIP-18
+Integrated Circuit
+0
+18
+18
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
