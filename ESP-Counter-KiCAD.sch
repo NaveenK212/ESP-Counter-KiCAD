@@ -1009,7 +1009,7 @@ Wire Wire Line
 	1486 6828 1730 6828
 Wire Wire Line
 	1986 6828 2066 6828
-Text GLabel 2202 7028 2    50   Input ~ 0
+Text GLabel 2564 7030 2    50   Input ~ 0
 VDD5V
 $Comp
 L power:GND #PWR0103
@@ -1346,4 +1346,36 @@ F 3 "~" H 10420 6332 50  0001 C CNN
 	1    10420 6332
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:CP_Small C8
+U 1 1 60275CD2
+P 2382 7298
+F 0 "C8" H 2470 7344 50  0000 L CNN
+F 1 "220uF" H 2470 7253 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 2382 7298 50  0001 C CNN
+F 3 "~" H 2382 7298 50  0001 C CNN
+	1    2382 7298
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2202 7030 2382 7030
+Connection ~ 2202 7030
+Wire Wire Line
+	2382 7198 2382 7030
+Connection ~ 2382 7030
+Wire Wire Line
+	2382 7030 2564 7030
+$Comp
+L power:GND #PWR06
+U 1 1 6028F588
+P 2382 7422
+F 0 "#PWR06" H 2382 7172 50  0001 C CNN
+F 1 "GND" H 2387 7249 50  0000 C CNN
+F 2 "" H 2382 7422 50  0001 C CNN
+F 3 "" H 2382 7422 50  0001 C CNN
+	1    2382 7422
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2382 7422 2382 7398
 $EndSCHEMATC
