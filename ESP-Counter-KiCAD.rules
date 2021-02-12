@@ -11,16 +11,16 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1721)
+    (start_pass_no 2008)
     (layer_rule F.Cu
       (active on)
-      (preferred_direction horizontal)
+      (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
       (against_preferred_direction_trace_costs 2.0)
     )
     (layer_rule B.Cu
       (active on)
-      (preferred_direction vertical)
+      (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
       (against_preferred_direction_trace_costs 2.0)
     )
@@ -46,11 +46,17 @@
   (via 
     "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
   )
+  (via 
+    "Via[0-1]_800:400_um-power" "Via[0-1]_800:400_um" power
+  )
   (via_rule
     default "Via[0-1]_800:400_um"
   )
   (via_rule
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    power "Via[0-1]_800:400_um-power"
   )
   (class default
     (clearance_class default)
@@ -63,17 +69,27 @@
     )
   )
   (class "kicad_default"
-    GND VDD3V3 "GPIO2_IP" "GPIO0_IP" "Net-(C5-Pad1)" GND1 24V "Net-(D3-Pad2)"
-    "Net-(D5-Pad2)" "Spare_IP" Counter "Stop_NO" "Stop_NC" "Stop_COM" "Start_NO" "Start_NC"
-    "Start_COM" RED Green Orange VDD5V ADC "Net-(R1-Pad2)" "Net-(R2-Pad2)"
-    "Net-(R3-Pad2)" "Net-(R4-Pad2)" "Net-(R7-Pad2)" "Net-(R8-Pad1)" "Net-(R9-Pad1)" "Net-(R10-Pad1)" "Net-(R11-Pad1)" "Net-(R12-Pad1)"
-    "Net-(R13-Pad1)" "Net-(R14-Pad1)" MOSI MISO CLK CS HOLD GPIO13
-    GPIO12 GPIO14 GPIO4 GPIO5 "Net-(U3-Pad3)" "Net-(U4-Pad3)" "Net-(U5-Pad3)" "Net-(U6-Pad4)"
-    "Net-(U10-Pad3)"
+    GND VDD3V3 "GPIO2_IP" "GPIO0_IP" "Net-(C5-Pad1)" "Net-(D3-Pad2)" "Net-(D5-Pad2)" "Spare_IP"
+    Counter "Start_NO" VDD5V ADC "Net-(R1-Pad2)" "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(R4-Pad2)"
+    "Net-(R7-Pad2)" "Net-(R8-Pad1)" "Net-(R9-Pad1)" "Net-(R10-Pad1)" "Net-(R11-Pad1)" "Net-(R12-Pad1)" "Net-(R13-Pad1)" "Net-(R14-Pad1)"
+    MOSI MISO CLK CS HOLD GPIO13 GPIO12 GPIO14
+    GPIO4 GPIO5 "Net-(U3-Pad3)" "Net-(U4-Pad3)" "Net-(U5-Pad3)" "Net-(U6-Pad4)" "Net-(U10-Pad3)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
       (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class power
+    GND1 24V "Stop_NO" "Stop_NC" "Stop_COM" "Start_NC" "Start_COM" RED
+    Green Orange
+    (clearance_class power)
+    (via_rule power)
+    (rule
+      (width 400.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)

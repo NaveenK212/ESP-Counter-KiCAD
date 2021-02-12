@@ -1302,4 +1302,48 @@ Wire Wire Line
 Wire Wire Line
 	1500 5248 1656 5248
 NoConn ~ 1500 5648
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6027DF3A
+P 10408 5794
+F 0 "H1" H 10508 5840 50  0000 L CNN
+F 1 "." H 10508 5749 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10408 5794 50  0001 C CNN
+F 3 "~" H 10408 5794 50  0001 C CNN
+	1    10408 5794
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6027E472
+P 10410 5972
+F 0 "H2" H 10510 6018 50  0000 L CNN
+F 1 "." H 10510 5927 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10410 5972 50  0001 C CNN
+F 3 "~" H 10410 5972 50  0001 C CNN
+	1    10410 5972
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6027EA02
+P 10416 6150
+F 0 "H3" H 10516 6196 50  0000 L CNN
+F 1 "." H 10516 6105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10416 6150 50  0001 C CNN
+F 3 "~" H 10416 6150 50  0001 C CNN
+	1    10416 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6027EBF0
+P 10420 6332
+F 0 "H4" H 10520 6378 50  0000 L CNN
+F 1 "." H 10520 6287 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10420 6332 50  0001 C CNN
+F 3 "~" H 10420 6332 50  0001 C CNN
+	1    10420 6332
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

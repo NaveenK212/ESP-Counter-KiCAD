@@ -394,8 +394,6 @@ F 3 "" H 5840 3962 50  0001 C CNN
 	1    5840 3962
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5840 3904 5840 3962
 Text GLabel 8774 988  2    50   Input ~ 0
 24V
 Wire Wire Line
@@ -961,7 +959,7 @@ Connection ~ 10390 2304
 Wire Wire Line
 	10390 2304 10390 2504
 Wire Wire Line
-	9816 3012 9966 3012
+	9816 3012 9878 3012
 Wire Wire Line
 	10344 3012 10344 3014
 Connection ~ 10344 3012
@@ -1178,15 +1176,6 @@ Text GLabel 6070 6064 0    50   Input ~ 0
 CS
 Wire Wire Line
 	6070 6064 6192 6064
-Wire Wire Line
-	1500 5648 1550 5648
-Wire Wire Line
-	1550 5648 1550 5248
-Wire Wire Line
-	1500 5248 1550 5248
-Connection ~ 1550 5248
-Wire Wire Line
-	1550 5248 1656 5248
 Text GLabel 1636 4448 2    50   Input ~ 0
 ADC
 Wire Wire Line
@@ -1278,4 +1267,83 @@ NoConn ~ 5440 3704
 NoConn ~ 6240 3504
 NoConn ~ 6240 3604
 NoConn ~ 6240 3704
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6027A2E2
+P 9878 3012
+F 0 "#FLG0101" H 9878 3087 50  0001 C CNN
+F 1 "PWR_FLAG" H 9878 3185 50  0000 C CNN
+F 2 "" H 9878 3012 50  0001 C CNN
+F 3 "~" H 9878 3012 50  0001 C CNN
+	1    9878 3012
+	1    0    0    -1  
+$EndComp
+Connection ~ 9878 3012
+Wire Wire Line
+	9878 3012 9966 3012
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 6027C72E
+P 6106 3940
+F 0 "#FLG0102" H 6106 4015 50  0001 C CNN
+F 1 "PWR_FLAG" V 6106 4068 50  0000 L CNN
+F 2 "" H 6106 3940 50  0001 C CNN
+F 3 "~" H 6106 3940 50  0001 C CNN
+	1    6106 3940
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5840 3904 5840 3940
+Wire Wire Line
+	6106 3940 5840 3940
+Connection ~ 5840 3940
+Wire Wire Line
+	5840 3940 5840 3962
+Wire Wire Line
+	1500 5248 1656 5248
+NoConn ~ 1500 5648
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6027DF3A
+P 10396 5794
+F 0 "H1" H 10496 5840 50  0000 L CNN
+F 1 "MountingHole" H 10496 5749 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10396 5794 50  0001 C CNN
+F 3 "~" H 10396 5794 50  0001 C CNN
+	1    10396 5794
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6027E472
+P 10410 5972
+F 0 "H2" H 10510 6018 50  0000 L CNN
+F 1 "MountingHole" H 10510 5927 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10410 5972 50  0001 C CNN
+F 3 "~" H 10410 5972 50  0001 C CNN
+	1    10410 5972
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6027EA02
+P 10416 6150
+F 0 "H3" H 10516 6196 50  0000 L CNN
+F 1 "MountingHole" H 10516 6105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10416 6150 50  0001 C CNN
+F 3 "~" H 10416 6150 50  0001 C CNN
+	1    10416 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6027EBF0
+P 10420 6332
+F 0 "H4" H 10520 6378 50  0000 L CNN
+F 1 "MountingHole" H 10520 6287 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10420 6332 50  0001 C CNN
+F 3 "~" H 10420 6332 50  0001 C CNN
+	1    10420 6332
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
